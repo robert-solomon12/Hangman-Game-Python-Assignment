@@ -53,13 +53,7 @@ while counter < len(ans):
           counter = counter + 1
           print("correct, keep guessing, you have ! ")
 
-   #if the guessed word does not equal the answer then decrement attempts 
-        if ans[i] not guess :
-          attempts = attempts - 1
-          print("wrong!, you have" + attempts + "left!")
-
-#          print (used)
-
+ 
     #print out the new string with guessed letters in
     print (' '.join(show))
 #    print()
